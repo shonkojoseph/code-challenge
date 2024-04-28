@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.Table th,
+td {
+  width: 100vh;
+  border-collapse: collapse;
+  height: 100%;
+}
+
+.Table th,
+td {
+  padding: 5ypx;
+  border: 1px solid #5c5454;
+}
+
+.Table th {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Header {
+  width: 100%;
+  background-color: rgb(120, 72, 165);
+  color:white;
+  top: 0;
+  overflow: auto; 
+}
